@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Main from "./js/Main";
+import Inner from "./js/Inner";
 
 
 
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div>
         <Main/>
+        <Inner/>
       </div>
     );
   }

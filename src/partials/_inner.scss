@@ -1,0 +1,28 @@
+.inner {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-size: 50px;
+  text-align: center;
+  h3 {
+    text-transform: uppercase;
+  }
+  h4,h3 {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  }
+.text-info {
+  text-align: center;
+  font-size: 35px;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  h4, h3, p {
+    font-size: 30px;
+  }
+  .text-info {
+    font-size: 15px;
+  }
+}

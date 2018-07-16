@@ -10,7 +10,13 @@
 }
 
 button {
+  font-size: 20px;
   border: 1px solid black;
   background-color: transparent;
   margin-bottom: 100px;
-  height: 5}
+  height: 50px;
+  width: 200px;
+  &:hover {
+    cursor: pointer;
+  }
+}

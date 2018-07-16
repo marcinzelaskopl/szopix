@@ -5,7 +5,7 @@ import '../App.css';
 class Main extends Component {
     render(){
         function scroll() {
-            const el = document.getElementById('bio');
+            const el = document.getElementById('inner');
             el.scrollIntoView({behavior: 'smooth'});
         }
         return (

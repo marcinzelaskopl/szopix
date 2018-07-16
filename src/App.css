@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Khand', sans-serif; }
 
 .grid-container {
   width: 100%;
-  max-width: 2000px;
+  max-width: 1200px;
   margin: 0 auto; }
   .grid-container .row::before, .grid-container .row::after {
     content: "";
@@ -67,9 +68,36 @@
   background-repeat: no-repeat; }
 
 button {
+  font-size: 20px;
   border: 1px solid black;
   background-color: transparent;
   margin-bottom: 100px;
-  height: 5; }
+  height: 50px;
+  width: 200px; }
+  button:hover {
+    cursor: pointer; }
+
+.inner {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-size: 50px;
+  text-align: center; }
+  .inner h3 {
+    text-transform: uppercase; }
+  .inner h4, .inner h3 {
+    margin-top: 50px;
+    text-align: center; }
+
+.text-info {
+  text-align: center;
+  font-size: 35px; }
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  h4, h3, p {
+    font-size: 30px; }
+
+  .text-info {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=App.css.map */
